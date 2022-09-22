@@ -11,6 +11,7 @@
     "error-stack-parser": "^2.1.4",
     "express": "^4.18.1",
     "find": "^0.2.9",
+    "heroku": "^7.63.4",
     "is_js": "^0.9.0",
     "json-stringify-safe": "^5.0.1",
     "lru-cache": "^2.2.4",
