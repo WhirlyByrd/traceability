@@ -1,9 +1,37 @@
 {
+  "name": "traceability",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
+    "async": "^3.2.4",
+    "console-polyfill": "^0.3.0",
     "cors": "^2.8.5",
+    "decache": "^3.1.0",
+    "error-stack-parser": "^2.1.4",
     "express": "^4.18.1",
-    "heroku": "^7.63.4",
-    "path": "^0.12.7",
-    "rollbar": "^2.25.2"
-  }
+    "find": "^0.2.9",
+    "is_js": "^0.9.0",
+    "json-stringify-safe": "^5.0.1",
+    "lru-cache": "^2.2.4",
+    "request-ip": "^2.0.2",
+    "rollbar": "^2.25.2",
+    "source-map": "^0.5.7",
+    "stackframe": "^1.3.4",
+    "traverse-chain": "^0.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhirlyByrd/traceability.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WhirlyByrd/traceability/issues"
+  },
+  "homepage": "https://github.com/WhirlyByrd/traceability#readme"
 }
