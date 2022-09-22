@@ -63,6 +63,17 @@ app.delete('/api/students/:index', (req, res) => {
     res.status(200).send(students)
 })
 
+app.delete('/api/fruit/:index', (req, res) => {
+    const targetIndex = +req.params.index
+    
+    students.splice(targetIndex, 1)
+
+    rollbar.info('Fruit was deleted')
+    res.status(200).send(students)
+})
+
+
+
 const port = process.env.PORT || 5050
 
 app.listen(port, () => console.log(`Server listening on ${port}`))
